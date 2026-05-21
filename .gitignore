@@ -1,0 +1,13 @@
+# CS50 datasets - not our code
+large/
+small/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# VS Code settings
+.vscode/
