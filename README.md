@@ -1,7 +1,7 @@
 # 🤖 AI Learning Portfolio — CS50 AI & Agentic AI Engineering
 
 > **Shikha Sachdeva** · Senior Software Engineering Manager · AI & Cloud Modernization  
-> 📍 Austin, TX · [LinkedIn](https://www.linkedin.com/in/shikha-sachdeva-061b2213/) · [GitHub](https://github.com/ShikhaGSachdeva)
+> 📍 Austin, TX · [LinkedIn](https://www.linkedin.com/in/) · [GitHub](https://github.com/ShikhaGSachdeva)
 
 ---
 
@@ -24,6 +24,52 @@ Each project here is implemented from scratch — no black-box frameworks, no sh
 | IBM RAG & Agentic AI Professional Certificate | IBM / Coursera | 🔜 Planned |
 | AWS Certified AI Practitioner | Amazon Web Services | 🔜 Planned |
 | MIT xPRO: AI Products & Services | MIT | 🔜 Planned |
+
+---
+
+## ⚙️ Setup Instructions
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/ShikhaGSachdeva/CS50-AI.git
+cd CS50-AI
+```
+
+### Create and Activate Virtual Environment
+
+```bash
+# Create virtual environment with Python 3.12
+python -m venv venv
+
+# Activate — Windows
+venv\Scripts\activate
+
+# Activate — Mac/Linux
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Download Project Datasets
+
+Each project that requires a dataset includes a `setup.py` script that downloads it automatically:
+
+```bash
+# Example for Week 0 — Degrees
+cd Week0-Search
+python setup.py
+```
+
+Or download manually from CS50:
+- **Degrees dataset:** https://cdn.cs50.net/ai/2023/x/projects/0/degrees.zip
+- Unzip and place `large/` and `small/` folders inside `Week0-Search/`
+
+> **Note:** Datasets are excluded from this repository via `.gitignore` as they belong to CS50/IMDb and are large in size. They are freely available at the links above.
 
 ---
 
