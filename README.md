@@ -111,9 +111,9 @@ Name: Jennifer Lawrence
 
 ---
 
-### Week 0 — Search *(coming soon)*
+### Week 0 — Search 
 
-#### 🔜 Tic-Tac-Toe — Minimax Algorithm
+#### ✅ Tic-Tac-Toe — Minimax Algorithm
 
 An AI agent that plays Tic-Tac-Toe optimally using the Minimax adversarial search algorithm. The AI will never lose.
 
